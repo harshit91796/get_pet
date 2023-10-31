@@ -12,41 +12,73 @@ export default function Home() {
 
   return (
    <div className={styles.container}>
-       <div className={styles.postContainer}>
+        <div className={styles.postContainer}>
             <div className={styles.post}>
-                <div className={styles.imgContainer}>
-                <Image className={styles.img} src={profile} />
+                <div className={styles.userContainer}>
+                    <div className={styles.userImgContainer}>
+                    <Image className={styles.userImg} src={profile} />
                 </div>
-                <div className={styles.desc}>
-                <span className={cav.className}>location : t.t nagar</span> <br/>
-                <span className={cav.className}>quantity : 5</span> <br/>
-                <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
-                </div>
+            <div className={styles.uploaderName}>
+            <span className={cav.className}>harshit</span>
             </div>
+        </div>
+      <div className={styles.imgContainer}>
+      <Image className={styles.img} src={profile} />
+      </div>
+      <div className={styles.desc}>
+      <span className={cav.className}>location : t.t nagar</span> <br/>
+      <span className={cav.className}>quantity : 5</span> <br/>
+      <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
+      </div>
+  </div>
+
+    <div className={styles.post}>
+            <div className={styles.userContainer}>
+            <div className={styles.userImgContainer}>
+            <Image className={styles.userImg} src={profile} />
+            </div>
+            <div className={styles.uploaderName}>
+            <span className={cav.className}>harshit</span>
+            </div>
+            </div>
+           <div className={styles.imgContainer}>
+           <Image className={styles.img} src={profile} />
+           </div>
+           <div className={styles.desc}>
+           <span className={cav.className}>location : t.t nagar</span> <br/>
+           <span className={cav.className}>quantity : 5</span> <br/>
+           <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
+           </div>
+       </div>
+
+ <div className={styles.post}>
+            <div className={styles.userContainer}>
+            <div className={styles.userImgContainer}>
+            <Image className={styles.userImg} src={profile} />
+            </div>
+            <div className={styles.uploaderName}>
+            <span className={cav.className}>harshit</span>
+            </div>
+            </div>
+           <div className={styles.imgContainer}>
+           <Image className={styles.img} src={profile} />
+           </div>
+           <div className={styles.desc}>
+           <span className={cav.className}>location : t.t nagar</span> <br/>
+           <span className={cav.className}>quantity : 5</span> <br/>
+           <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
+           </div>
+       </div>
 
             <div className={styles.post}>
-                <div className={styles.imgContainer}>
-                <Image className={styles.img} src={profile} />
-                </div>
-                <div className={styles.desc}>
-                <span className={cav.className}>location : t.t nagar</span> <br/>
-                <span className={cav.className}>quantity : 5</span> <br/>
-                <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
-                </div>
-            </div>
-
-            <div className={styles.post}>
-                <div className={styles.imgContainer}>
-                <Image className={styles.img} src={profile} />
-                </div>
-                <div className={styles.desc}>
-                <span className={cav.className}>location : t.t nagar</span> <br/>
-                <span className={cav.className}>quantity : 5</span> <br/>
-                <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
-                </div>
-            </div>
-
-            <div className={styles.post}>
+                 <div className={styles.userContainer}>
+                 <div className={styles.userImgContainer}>
+                 <Image className={styles.userImg} src={profile} />
+                 </div>
+                 <div className={styles.uploaderName}>
+                 <span className={cav.className}>harshit</span>
+                 </div>
+                 </div>
                 <div className={styles.imgContainer}>
                 <Image className={styles.img} src={profile} />
                 </div>
@@ -59,27 +91,43 @@ export default function Home() {
             
             <br/>
 
-            <div className={styles.post}>
-            <div className={styles.imgContainer}>
-            <Image className={styles.img} src={profile} />
+     <div className={styles.post}>
+            <div className={styles.userContainer}>
+            <div className={styles.userImgContainer}>
+            <Image className={styles.userImg} src={profile} />
             </div>
-            <div className={styles.desc}>
-            <span className={cav.className}>location : t.t nagar</span> <br/>
-            <span className={cav.className}>quantity : 5</span> <br/>
-            <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
+            <div className={styles.uploaderName}>
+            <span className={cav.className}>harshit</span>
             </div>
-        </div>
+            </div>
+           <div className={styles.imgContainer}>
+           <Image className={styles.img} src={profile} />
+           </div>
+           <div className={styles.desc}>
+           <span className={cav.className}>location : t.t nagar</span> <br/>
+           <span className={cav.className}>quantity : 5</span> <br/>
+           <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
+           </div>
+       </div>
 
-        <div className={styles.post}>
-        <div className={styles.imgContainer}>
-        <Image className={styles.img} src={profile} />
-        </div>
-        <div className={styles.desc}>
-        <span className={cav.className}>location : t.t nagar</span> <br/>
-        <span className={cav.className}>quantity : 5</span> <br/>
-        <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
-        </div>
-    </div>
+       <div className={styles.post}>
+                 <div className={styles.userContainer}>
+                 <div className={styles.userImgContainer}>
+                 <Image className={styles.userImg} src={profile} />
+                 </div>
+                 <div className={styles.uploaderName}>
+                 <span className={cav.className}>harshit</span>
+                 </div>
+                 </div>
+                <div className={styles.imgContainer}>
+                <Image className={styles.img} src={profile} />
+                </div>
+                <div className={styles.desc}>
+                <span className={cav.className}>location : t.t nagar</span> <br/>
+                <span className={cav.className}>quantity : 5</span> <br/>
+                <span className={cav.className}>discription : dakbakabdba kabdkakbakd nakdnaudhnwn ndajk ndj di n ind.</span>
+                </div>
+            </div>
        </div>
    </div>
   )
